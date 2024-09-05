@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bowlby+One&family=Concert+One&family=Lalezar&family=Madimi+One&family=Pacifico&display=swap");
+body{
+    overflow-x: hidden;
+}
+.banner{
+    position: relative;
+    background: url(nike.sl.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+width: 1200px;
+
+height: 500px;
+
+}
+.banner h1{
+    position: relative;
+    color: #fff;
+    font-weight: bolder;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 60px;
+    left: 240px;
+    top: 100px;
+}
+.banner button{
+    position: relative;
+    left: 400px;
+    top: 100px;
+}
+.banner h2{
+    position: relative;
+    color: #fff;
+    font-weight: bolder;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 50px;
+    top: 100px;
+    left: 400px;
+    
+}
+.banner p{
+    position: relative;
+    color: #fff;
+    font-weight: bolder;
+    font-family: "Archivo Black", sans-serif;
+    padding: 0px 400px;
+    top: 80px;
+    right: 90px;
+
+}

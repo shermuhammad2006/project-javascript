@@ -1,0 +1,342 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bowlby+One&family=Concert+One&family=Lalezar&family=Madimi+One&family=Pacifico&display=swap");
+
+.Accont-details img{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 100px;
+    right: 279px;
+}
+.Accont-details h1{
+    position: relative;
+    top:100px ;
+    color: #fff;
+    font-size: 20px;
+    right: 270px;
+
+}
+.Accont-details{
+    display: flex;
+    position: relative;
+    left: 40px;
+    flex-direction: row;
+}
+.list-group{
+    position: relative;
+    top: 150px;
+    left: 20px;
+    color: #fff;
+}
+#list{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    
+
+}
+.ham{
+    width: 30px;
+    height: 30px;
+}
+.li{
+    list-style: none;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #fff;
+    padding-top:10px ;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.li:hover{
+    background-color: grey    ;
+}
+.last-settings h2{
+    position: relative;
+    left: 30px;
+    color: #fff;
+    top: 170px;
+    font-size: 20px;
+}
+.last-settings span{
+    right: 3px;
+    position: relative;
+}
+.last-settings h3{
+    position: relative;
+    left: 40px;
+    top: 188px;
+    
+    color: #fff;
+    font-size: 20px;
+    
+}
+#netflix{
+position: relative;
+width: 60px;
+height: 60px;
+right: 880px;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #000; /* Set a default background color to see if slides are rendering */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Make sure slides take up the full height of the container */
+}
+
+.slideri, .slider2, .slider3 {
+    background-position: center;
+    background-size: cover;
+    height: 100%; /* Ensure the slides take up full height */
+    width: 100%;  /* Ensure the slides take up full width */
+}
+
+.slideri h1, .slider2 img, .slider3 img {
+    position: relative;
+    z-index: 2; /* Ensure text/images appear above the background */
+}
+
+.rating, .para, .btns {
+    position: relative;
+    z-index: 2; /* Ensure content appears above background */
+}
+.slider{
+    position: relative;
+    top: 0px;
+}
+.wed{
+    position: relative;
+    font-weight: bolder;
+    font-family: "Archivo Black", sans-serif;
+    
+    color: #fff;
+font-size: 70px;
+right: 210px;
+top: 80px;
+}
+.rating span img{
+    width: 140px;
+    height: 140px;
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+.rating{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    
+}
+.para{
+    position: relative;
+    padding: 0px 300px;
+    color: #fff;
+    font-size: 15px;
+    right: 230px;
+    bottom: 30px;
+}
+#svg1{
+    display: block;
+}
+#nt{
+    position: relative;
+    right: 320px;
+    bottom: 20px;
+}
+#nt span{
+    padding-bottom: 10px;
+    
+}
+#nt2{
+    position: relative;
+    bottom: 18px;
+    right: 300px;
+   
+    
+}
+.sp{
+    color: #fff;
+    padding-left: 20px;
+    top: 69px;
+    position: relative;
+    left: 100px;
+    font-size: 25px;
+
+
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+  
+    
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+body{
+    background-color: black;
+}
+
+.slideri{
+    background-image: url('Screenshot\ \(29\).png');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 1200px;
+    
+}
+.slider3{
+    position: relative;
+    background-image: url('Screenshot\ \(36\).png');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 1200px;
+}
+.r3t{
+    width: 50px;
+    height: 50px;
+}
+.slider3 .rating{
+    position: relative;
+    bottom: 20px;
+}
+#nt5{
+    
+    bottom: 18px;
+    position: relative;
+    right: 300px;
+}
+#nt3{
+    position: relative;
+    bottom: 18px;
+    right: 300px;
+   
+}
+#devil-text{
+    width:300px ;
+    height: 200px;
+    position: relative;
+    left: 120px;
+    top: 60px;
+}
+.slider2{
+    background-image: url('Screenshot\ \(31\).png');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 1200px;
+    
+}
+.slider2 .rating{
+    position: relative;
+    bottom: 100px;
+}
+.rt{
+    width: 90px;
+    height: 90px;
+}
+.slider2 .btns{
+    position: relative;
+    bottom: 94px;
+}
+.slider2 .para{
+    position: relative;
+    bottom: 120px;
+}
+#stranger-text{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: 130px;
+    top: 6px;
+}
+
+
+  
+.movies{
+    position: relative;
+    top:20px;
+}
+.movies h1{
+    color: #fff;
+}
+#top-movies{
+    display: flex;
+    flex-direction: row;
+}
+.div-1{
+    position: relative;
+    background:url(Screenshot\ \(37\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 160px;
+    width: 160px;
+    
+}
+.div-2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 160px;
+    width: 160px;
+background: url(Screenshot\ \(39\).png);
+}
+.div-3{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 160px;
+    width: 160px;
+    background: url(Screenshot\ \(40\).png);
+}
+.div-4{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 160px;
+    width: 160px;
+    background: url(Screenshot\ \(41\).png);
+}
+.div-5{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 160px;
+    width: 160px;
+background: url(Screenshot\ \(42\).png);
+}
+.div-5:hover{
+    border: 3px solid white;
+}
+.div-6{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 160px;
+    width: 160px;
+    background: url(Screenshot\ \(44\)\ -\ Copy.png);
+}
+.div-1:hover{
+    border: 3px solid white;
+}
+.div-2:hover{
+    border: 3px solid white;
+}
+.div-3:hover{
+    border: 3px solid white;
+}
+.div-4:hover{
+    border: 3px solid white;
+zoom: 20px;
+}
+.div-6:hover{
+    border: 2px solid white;
+}

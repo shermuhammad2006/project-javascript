@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bowlby+One&family=Concert+One&family=Lalezar&family=Madimi+One&family=Pacifico&display=swap");
+
+.Container{
+    display: flex;
+    width: 300px;
+    border: 2px solid ;
+    box-shadow:  44px 44px 88px #707070,
+    -44px -44px 88px #ffffff;
+    position: relative;
+    left: 350px;
+    background-image: url("Blue.jpeg");
+    top: 120px; 
+    background-size: cover;
+       box-shadow:  44px 44px 88px #707070,
+             -44px -44px 88px #ffffff;
+    color: #fff;
+    border-radius: 30px;
+
+    font-family: "Concert One", sans-serif;
+height:500px;
+}
+.main{
+    display: flex;
+    padding-bottom: 200px;
+    justify-content: center;
+    text-align: center;
+
+    align-items: center;
+}
+.weather-pics{
+    position: relative;
+display: flex;
+top: 20px;
+right: 10px;
+}
+.input{
+    position: relative;
+    bottom: 80px;
+ flex-direction: row;
+  display: flex;
+     left: 30px;
+}
+.input input{
+    outline: none;
+    border-radius: 30px;
+    background-color: #bbb2b2;
+    border: grey;
+    padding: 10px;
+}
+.input span button{
+    border-radius: 60px;
+    background-color: #bbb2b2;
+    outline: 0;
+    border: gray;
+    position: relative;
+    left: 5px;
+    padding: 10px 10px ;
+}
+.weather-pics{
+    position: relative;
+    right: 90px;
+    bottom: 80px;
+}
+.weather-pics img{
+    width: 70px;
+    height: 70px;
+    right: 36px;
+    bottom: 30px;
+    position: relative;
+    
+}
+.Temperature{
+    position: relative;
+    top: 70px;
+    right: 190px;
+}
+.Temperature span{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.Weather-details{
+    position: relative;
+    left: 30px;
+}
+#wind  {
+    position: relative;
+    right: 330px;
+    top: 170px;
+    display: flex;
+}
+#W{
+    position: relative;
+    right: 350px;
+    font-weight: BOLDER;
+    font-size: 20PX;
+    top: 190px;
+}
+#wind img{
+    width: 40px;
+}
+#wind p{
+    position: relative;
+    font-weight: BOLDER;
+    right: 10px;
+}
+.humidity img{
+    width: 40px;
+    height: 40px;
+}
+.humidity p{
+    position: relative;
+    right: 5px;
+    font-size: 20px;
+    bottom: 10px;
+}
+.humidity{
+    position: relative;
+    font-weight: bolder;
+    right: 200px;
+    display: flex;
+    top: 67px;
+}
+.H{
+    position: relative;
+    font-size: 20px;
+    font-weight: bolder;
+    right: 200px;
+    top: 80px;
+}
+.city{
+    position: relative;
+    right: 340px;
+    font-size: 38px;
+    top: 250px;
+    
+}
+</style>
+<body>
+    <div class="Container">
+<div class="main">
+    <h1></h1>
+    <div class="input">
+        <input type="search" text="search"><span><button><i class="bi bi-zoom-out"></i></button></span>
+    </div>
+    <div class="weather-pics">
+        <img src="cloudy.png">
+    </div>
+    <div class="Temperature">
+        <span>35°C</span>
+    </div>
+<div class="Weather-details">
+    <p id="W">Wind</p>
+    <div id="wind">
+        <p class="wind">10K/M</p><span><img src="storm.png"></span>
+    </div>
+    <p class="H">
+        humidity
+    </p>
+    <div class="humidity">
+        <p class="hum">10%</p><span><img src="humidity.png"></span>
+    </div>
+</div>   
+<div class="city">
+    <h3>New york</h3>
+</div>
+    </div>
+    </div>
+    </div>
+    <script>
+        let humidity = document.getElementsByClassName("hum");
+        let Wind = document.getElementsByClassName("wind");
+        let Temperature = document.getElementsByClassName("Temperature");
+    </script>
+    
+</body>
+</html>
