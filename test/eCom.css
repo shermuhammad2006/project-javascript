@@ -1,0 +1,828 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bowlby+One&family=Concert+One&family=Lalezar&family=Madimi+One&family=Pacifico&display=swap");
+body{
+    overflow-x: hidden;
+}
+.list{
+    color: #fff;
+}
+.brand-header{
+    position: relative;
+    background: url(header.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    left:250px;
+}
+.header p{
+    position: relative;
+    font-family: "Archivo Black", sans-serif;
+    left: 340px;
+    bottom: 150px;
+}
+.header{
+    overflow-x: hidden;
+}
+/* button from uiverse*/
+/* From Uiverse.io by alexroumi */ 
+#btn-exp {
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    position: relative;
+    left:420px;
+    bottom: 130px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+}
+
+#btn-exp::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+}
+
+#btn-exp:hover {
+    color: #e8e8e8;
+   }
+   
+   #btn-exp:hover::before {
+       width: 100%;
+    }
+    
+    /*now designing a div where all the new arrival card will be
+    form*/
+    .top-trends{
+        position: relative;
+        display: flex;
+        
+        
+}
+.top-trends h1{
+    position: relative;
+    color: rgb(57, 55, 55);
+    left: 360px;    
+    font-weight: bolder;
+    font-family: "Archivo Black", sans-serif;
+}
+#card-1{
+    position: relative;
+    border: 2px solid grey;
+    outline: 0;
+    border: none;
+    border-radius: 30px;
+    right: 17px;
+    width: 250px;
+    height: 360px;
+    background-color: #C4BFBF;
+top: 70px;
+right: 140px;
+}
+.btn{
+    position: relative;
+    
+}
+
+#img{
+    position: relative;
+    border: none;
+    background-color: #fff;
+    outline: 0;
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    left: 20px;
+    top: 15px;
+    transition: transform 0.5s ease;
+}
+#img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    
+    
+}
+#img:hover img{
+    transform: scale(1.2)
+}
+
+#card-1 h3{
+    position: relative;
+    color: #fff;
+    top: 20px;
+    left: 20px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: bolder;   
+}
+#card-1 p{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: bolder;   
+    color: #fff;
+    position: relative;
+    top: 14PX;
+font-size: 20PX;
+left: 14px;
+
+    
+}
+.top-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+ 
+
+}
+
+.btn{
+    position: relative;
+    background-color: #fff;
+    color: black;
+    left: 10px;
+    top: 5px;
+
+}
+.card-2{
+    position: relative;
+    border: 2px solid grey;
+    outline: 0;
+    border: none;
+    border-radius: 30px;
+    right: 70px;
+    width: 250px;
+    height: 360px;
+    background-color: #C4BFBF;
+    top: 60px;
+}
+.card-2 h3{
+    position: relative;
+    color: #fff;
+    top: 16px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: bolder;   
+left: 15px;
+top: 25px;  
+}
+.card-2 p{
+    position: relative;
+    font-size: 20px;
+    font-weight: bolder;   
+    font-family: "Archivo Black", sans-serif;
+color: #fff; 
+left: 15px;
+top: 10px;
+}
+.card-3{
+    position: relative;
+    border: 2px solid grey;
+    outline: 0;
+    border: none;
+    border-radius: 30px;
+    right: 30px;
+    width: 250px;
+    top: 60px;
+    height: 360px;
+    background-color: #C4BFBF;
+    
+    
+}
+
+.card-3 h3{
+    position: relative;
+    color: #fff;
+    top: 16px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: bolder;   
+left: 15px;
+top: 25px;
+}
+.card-3 p{
+    position: relative;
+    font-size: 20px;
+    font-weight: bolder;   
+    font-family: "Archivo Black", sans-serif;
+color: #fff; 
+left: 15px;
+top: 10px;
+}
+.fav-shooe{
+    position: relative;
+    background-color: #C4BFBF;
+    width: 950px;
+    height: 700px;
+    border-radius: 30px;
+    top: 200px;
+    left: 50px;
+
+}
+#shoes-img{
+    position: relative;
+    background-color: #fff;
+    width: 500px;
+    height: 400px;
+    top: 100px;
+    left: 60px;
+    border-radius: 30px;
+}
+.descrption h2{
+    position: relative;
+    color: #fff;
+    font-weight: bolder;   
+    left: 600px;
+    bottom: 300px;
+    padding-right: 200px;
+    font-family: "Archivo Black", sans-serif;
+    
+}
+.descrption p{
+    position: relative
+    ;
+    left: 300px;
+    bottom: 300px;
+    font-weight: bolder; 
+    padding: 0px 300px;  
+    color: #fff;
+    font-family: "Archivo Black", sans-serif;
+
+}
+.color-plates{
+    display: flex;
+    flex-direction: row;
+    left:670px;
+    bottom: 270px;
+    position: relative;
+    gap: 10px;
+
+}
+#btn-red{
+    border-radius: 70px;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+}
+#btn-white{
+    border-radius: 70px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+}
+#btn-yellow{
+    border-radius: 70px;
+    width: 40px;
+    height: 40px;
+background-color: yellow;
+}
+#btn-black{
+    border-radius: 70px;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+}
+#red {
+    display: none;
+    width: 500px;
+    height: 500px;
+    animation: slideInRight 0.5s ease-out;
+    transition: transform 0.5s ease;
+}
+
+#white {
+    display: block;
+    width: 500px;
+    height: 500px;
+    animation: slideInRight 0.5s ease-out;
+    transition: transform 0.5s ease;
+}
+
+#yellow {
+    display: none;
+    width: 500px;
+    height: 500px;
+    animation: slideInRight 0.5s ease-out;
+    transition: transform 0.5s ease;
+}
+
+#black {
+    display: none;
+    width: 500px;
+    height: 500px;
+    animation: slideInRight 0.5s ease-out;
+    transition: transform 0.5s ease;
+}
+
+#red:hover {
+    transform: scale(1.2);
+}
+
+#yellow:hover {
+    transform: scale(1.3);
+}
+
+#black:hover {
+    transform: scale(1.3);
+}
+#white:hover {
+    transform: scale(1.3);
+}
+
+@keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  /* From Uiverse.io by BHARGAVPATEL1244 */ 
+.btn-click{
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 0.9rem 2rem;
+    left: 700px;
+    bottom: 200px;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 500px;
+    overflow: hidden;
+    background: #66ff66;
+    color: ghostwhite;
+   }
+   
+   .btn-click span {
+    position: relative;
+    z-index: 10;
+    transition: color 0.4s;
+   }
+   
+   .btn-click:hover span {
+    color: black;
+   }
+   
+   .btn-click::before,
+   .bnt-click::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+   }
+   
+   .btn-click::before {
+    content: "";
+    background: #000;
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+   }
+   
+   .btn-click:hover::before {
+    transform: translate3d(100%, 0, 0);
+   }
+
+.cat{
+      position: relative;
+      background-color: #003049;
+      width: 1200px;
+      border-radius: 30px;
+      height: 400px;
+      display: flex;
+      flex-direction: row;
+      top: 300px;
+
+  }
+  .footer h2{
+    position: relative;
+    color: #fff;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+    left: 30px;
+    top: 30px;
+}
+.footer span{
+    position: relative;
+    color: #fff;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: bolder;
+    display: flex;
+    flex-direction:column ;
+    gap: 6px;
+    left: 50px;
+    top: 50px;
+    font-size: 20px;
+
+
+  
+}
+.help h2{
+    position: relative;
+    left: 40px;
+}
+.help{
+    position: relative;
+    left: 100px;
+}
+.social-media{
+    position: relative;
+    left: 200px;
+}
+.store h1{
+    position: relative;
+    top: 240px;
+    right: 500px;
+    color: #fff;
+}
+
+/* From Uiverse.io by alexruix */ 
+.input-group {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 260px;
+    right: 500px;
+  }
+  
+  .input {
+    min-height: 50px;
+    max-width: 150px;
+    padding: 0 1rem;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #5e4dcd;
+    border-radius: 6px 0 0 6px;
+    background-color: transparent;
+  }
+  
+  .button--submit {
+    min-height: 50px;
+    padding: .5em 1em;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background-color: #5e4dcd;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+  }
+  
+  .button--submit:hover {
+    background-color: #5e5dcd;
+  }
+  
+  .input:focus, .input:focus-visible {
+    border-color: #3898EC;
+    outline: none;
+  }
+ 
+.wrapper {
+    display: inline-flex;
+    list-style: none;
+    height: 120px;
+    width: 100%;
+    position: relative;
+    top: 100px;
+    right: 200px;
+    padding-top: 40px;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+  }
+  
+  .wrapper .icon {
+    position: relative;
+    background: #fff;
+    border-radius: 50%;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background: #fff;
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #fff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  
+  .wrapper .icon:hover span,
+  .wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .wrapper .facebook:hover,
+  .wrapper .facebook:hover .tooltip,
+  .wrapper .facebook:hover .tooltip::before {
+    background: #1877f2;
+    color: #fff;
+  }
+  
+  .wrapper .twitter:hover,
+  .wrapper .twitter:hover .tooltip,
+  .wrapper .twitter:hover .tooltip::before {
+    background: #1da1f2;
+    color: #fff;
+  }
+  
+  .wrapper .instagram:hover,
+  .wrapper .instagram:hover .tooltip,
+  .wrapper .instagram:hover .tooltip::before {
+    background: #e4405f;
+    color: #fff;
+  }
+  /* Media Query for max-width 3811px */
+  @media only screen and (max-width: 390px) {
+.brand-header{
+    position: relative;
+    left:50px;
+    width: 300px;
+    height: 300px;
+    
+    
+}
+.fav-shooe{
+    width: 400px;
+}
+.header p{
+    position: relative;
+    bottom: 70px;
+    left: 60px;
+}
+#btn-exp{
+    position: relative;
+    left: 121px;
+    bottom: 60px;
+}
+.top-trends h1{
+    position: relative;
+    left: 150px;
+}
+.top-cards{
+    display: flex
+    ;
+    flex-direction: column;
+    position: relative;
+    left: 30px;
+
+}
+.card-1{
+    position: relative;
+right: 106px;
+}
+.card-2{
+    position: relative;
+    top: 90px;
+    right:120px;
+}
+.card-3{
+    position: relative;
+    top: 120px;
+    right: 99px;
+}
+.fav-shooe{
+    position: relative;
+    left: 0px;
+
+}
+#shoes-img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+#white{
+    width: 170px;
+    height: 170px;
+    
+}
+#red{
+    width: 170px;
+    height: 170px;
+
+}
+#black{
+    width: 170px;
+    height: 170px;
+
+}
+#yellow{
+    width: 170px;
+    height: 170px;
+
+}
+.color-plates{
+    position: relative;
+    left: 60px;
+    top: 90px;
+}
+.descrption h2{
+    font-size: 20px;
+    left: 60px;
+    bottom: 150px;
+}
+.descrption p{
+    display: none;
+}
+.btn-click{
+    left: 70px;
+    top: 110px;
+    position: relative;
+}
+.footer h2{
+    font-size: 15px;
+}
+.help{
+    position: relative;
+left: 0px;
+}
+.input-group{
+    width: 100%;
+    right: 400px;
+}
+.wrapper {
+    top: 100px;
+    right: 430px;
+    position: relative;
+}
+ 
+}
+/* Media Query for max-width 3811px */
+@media only screen and (max-width: 1080px) {
+    .brand-header{
+        position: relative;
+        left:50px;
+        width: 300px;
+        height: 300px;
+        
+        
+    }
+    .fav-shooe{
+        width: 400px;
+    }
+    .header p{
+        position: relative;
+        bottom: 70px;
+        left: 60px;
+    }
+    .header{
+        position: relative;
+        right: 30px;
+    }
+    #btn-exp{
+        position: relative;
+        left: 121px;
+        bottom: 60px;
+    }
+    .top-trends h1{
+        position: relative;
+        right: 60px;
+    }
+    .top-cards{
+        display: flex
+        ;
+        flex-direction: column;
+        position: relative;
+        right: 30px;
+    
+    }
+    .card-1{
+        position: relative;
+    right: 106px;
+    }
+    .card-2{
+        position: relative;
+        top: 90px;
+        right:120px;
+    }
+    .card-3{
+        position: relative;
+        top: 120px;
+        right: 99px;
+    }
+    .fav-shooe{
+        position: relative;
+        left: 0px;
+    
+    }
+    #shoes-img{
+        position: relative;
+        width: 200px;
+        height: 200px;
+    }
+    #white{
+        width: 170px;
+        height: 170px;
+        
+    }
+    #red{
+        width: 170px;
+        height: 170px;
+    
+    }
+    #black{
+        width: 170px;
+        height: 170px;
+    
+    }
+    #yellow{
+        width: 170px;
+        height: 170px;
+    
+    }
+    .color-plates{
+        position: relative;
+        left: 60px;
+        top: 90px;
+    }
+    .descrption h2{
+        font-size: 20px;
+        left: 60px;
+        bottom: 150px;
+    }
+    .descrption p{
+        display: none;
+    }
+    .btn-click{
+        left: 70px;
+        top: 110px;
+        position: relative;
+    }
+    .footer h2{
+        font-size: 15px;
+    }
+    .help{
+        position: relative;
+    left: 0px;
+    }
+    .input-group{
+        width: 100%;
+        right: 400px;
+    }
+    .wrapper {
+        top: 100px;
+        right: 430px;
+        position: relative;
+    }
+     
+}
